@@ -1,0 +1,14 @@
+{
+  "name": "drupal/sh_bible",
+  "type": "drupal-module",
+  "description": "bible",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/sh_bible",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/sh_bible",
+    "source": "http://cgit.drupalcode.org/sh_bible"
+  },
+  "require": { }
+}

@@ -1,0 +1,5 @@
+name: 'TorahPortionModule'
+type: module
+description: 'The weekly Torah portion.'
+core: 8.x
+package: 'Shimon'

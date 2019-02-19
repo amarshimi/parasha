@@ -1,0 +1,8 @@
+
+sh_bible.bible_controller_render:
+  path: '/sh_bible/render'
+  defaults:
+    _controller: '\Drupal\sh_bible\Controller\BibleController::render'
+    _title: 'render'
+  requirements:
+    _permission: 'access content'

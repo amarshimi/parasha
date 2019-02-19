@@ -1,0 +1,5 @@
+name: 'sh_bible'
+type: module
+description: 'bible'
+core: 8.x
+package: 'Custom'

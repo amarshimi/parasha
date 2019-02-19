@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains sh_bible.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function sh_bible_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the sh_bible module.
+    case 'help.page.sh_bible':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('bible') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function sh_bible_theme() {
+  return [
+    'sh_bible' => [
+      'render element' => 'children',
+    ],
+  ];
+}

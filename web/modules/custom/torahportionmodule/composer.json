@@ -1,0 +1,14 @@
+{
+  "name": "drupal/torahportionmodule",
+  "type": "drupal-module",
+  "description": "The weekly Torah portion.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/torahportionmodule",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/torahportionmodule",
+    "source": "http://cgit.drupalcode.org/torahportionmodule"
+  },
+  "require": { }
+}

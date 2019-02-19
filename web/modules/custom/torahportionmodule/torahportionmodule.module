@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * @file
+ * Contains torahportionmodule.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function torahportionmodule_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the torahportionmodule module.
+    case 'help.page.torahportionmodule':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('The weekly Torah portion.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function torahportionmodule_theme() {
+  return [
+    'torahportionmodule' => [
+      'render element' => 'children',
+    ],
+    'parashot_hp'       => [
+	    'variables' => [ 'title' => null, 'data' => null ],
+	    'template'  => 'block--parashot-hp',
+    ],
+  ];
+}

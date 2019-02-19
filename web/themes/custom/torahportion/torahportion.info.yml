@@ -1,0 +1,11 @@
+name: TorahPortion
+type: theme
+description: 'The weekly Torah portion.'
+package: Shimon
+core: 8.x
+libraries:
+  - torahportion/global-styling
+  - torahportion/global-js
+
+base theme: false
+
