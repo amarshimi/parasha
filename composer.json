@@ -22,6 +22,7 @@
         "drupal/admin_toolbar": "^1.22",
         "drupal/ckeditor_bidi": "^2.1",
         "drupal/ckeditor_font": "^1.0",
+        "drupal/color_field": "^2.0",
         "drupal/colorbutton": "^1.1",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.5.1",

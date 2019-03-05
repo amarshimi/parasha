@@ -1,0 +1,7 @@
+torahportionmodule.home:
+  path: '/home'
+  defaults:
+    _controller: '\Drupal\torahportionmodule\Controller\MainController::render'
+    _title: 'Home'
+  requirements:
+    _permission: 'access content'
