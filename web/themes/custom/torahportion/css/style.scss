@@ -1,8 +1,10 @@
-@import "../scss/bootstrap";
-@import "../scss/bootstrap-grid";
-@import "../scss/bootstrap-reboot";
+@import "../scss/vendors/bootstrap";
+@import "../scss/vendors/bootstrap-grid";
+@import "../scss/vendors/bootstrap-reboot";
 
 
-@import "../scss/header";
-@import "../scss/home-page-main";
-@import "../scss/footer";
+@import "../scss/components/buttons";
+@import "../scss/components/cards";
+
+
+

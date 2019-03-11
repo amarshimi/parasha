@@ -1,6 +1,15 @@
+<div id="columns">
 
-{% for item in data %}
+    {% for item in data %}
 
-    {{ item.getTitle() }}
+        <figure>
+            <img src="{{ item.img }}"/>
+            <figcaption><a href="{{ item.url }}">
+                    {{ item.title }}
+                </a>
+            </figcaption>
+        </figure>
 
-{% endfor %}
+    {% endfor %}
+
+</div>

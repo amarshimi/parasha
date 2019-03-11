@@ -22,6 +22,7 @@ class MainController extends ControllerBase {
 	use CommonControllerTrait;
 
 
+
 	private $langcode;
 
 
@@ -63,6 +64,8 @@ class MainController extends ControllerBase {
 		return array_map(function ($node){
 			return [
 				'title' => $this->getNodeField($node , 'title'),
+				'img' => $this->getNodeImage($node->field_image->entity),
+				'url' => $this->getNodeUrlAlias($node),
 			];
 		} , $nodes);
 
